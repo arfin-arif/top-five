@@ -25,9 +25,7 @@
                     </div>
                     <div class="col-8 text-center" style="top: 50%;">
                         <h1>Select You Favorite Top Five</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime neque officiis quia saepe ut
-                            fugit
-                            esse, velit ad sed fugiat?
+                        <p>Make your won team with the greatest played of all time
                         </p>
                     </div>
                     <div class=" col-2 ">
@@ -113,7 +111,7 @@
                             <div class="card bg-secondary" style="width: 15rem; ">
                                 <img src="images/player-5.png" class="card-img-top" alt="...">
                                 <div class="card-body text-center">
-                                    <h5 class="card-title">Maoro Ekardi</h5>
+                                    <h5 class="card-title">Renato Sanches</h5>
                                     <div class=" d-flex justify-content-around">
                                         <p>36 Goals</p>
                                         <p>25 Assist</p>
@@ -129,7 +127,7 @@
                             <div class="card bg-secondary" style="width: 15rem; ">
                                 <img src="images/player-6.png" class="card-img-top" alt="...">
                                 <div class="card-body text-center">
-                                    <h5 class="card-title">Varetti</h5>
+                                    <h5 class="card-title">Keylor Navas</h5>
                                     <div class=" d-flex justify-content-around">
                                         <p>36 Goals</p>
                                         <p>25 Assist</p>
@@ -146,13 +144,9 @@
                 <div class=" col-2 text-light">
                     <div class="col-12">
                         <h3>Slected Five</h3>
-                        <div class="">
+                        <div class="bg-dark">
                             <ol id="player-list">
-                                <!-- <li>Lionel Messi</li>
-                                <li>Lionel Messi</li>
-                                <li>Lionel Messi</li>
-                                <li>Lionel Messi</li>
-                                <li>Lionel Messi</li> -->
+
                             </ol>
                         </div>
                     </div>
@@ -164,10 +158,11 @@
                             </div>
                             <div class="col-6">
                                 <div class="col-xs-2"></div>
-                                <input class=" form-control" type="text" name="" id="">
+                                <input class=" form-control" type="text" name="" id="per-player-cost">
                             </div>
                         </div>
-                        <button style="border-radius: 0;" class=" col-12 btn btn-info ">Calculate</button>
+                        <button id="calculate" style="border-radius: 0;"
+                            class=" col-12 btn btn-info ">Calculate</button>
                         <p>Player Expenses
                             $ <span>5000</span></p>
                         <div class="row">
@@ -176,7 +171,7 @@
                             </div>
                             <div class="col-6">
                                 <div class="col-xs-2"></div>
-                                <input class=" form-control" type="text" name="" id="">
+                                <input class=" form-control" type="text" name="" id="manager-cost">
                             </div>
                         </div>
                         <div class="row">
@@ -185,10 +180,11 @@
                             </div>
                             <div class="col-6">
                                 <div class="col-xs-2"></div>
-                                <input class=" form-control" type="text" name="" id="">
+                                <input class=" form-control" type="text" name="" id="coach-cost">
                             </div>
                         </div>
-                        <button style="border-radius: 0;" class=" col-12 btn btn-info ">Calculate Total</button>
+                        <button id="calculate-total" style="border-radius: 0;" class=" col-12 btn btn-info ">Calculate
+                            Total</button>
                         <p>Total Expenses
                             $ <span>5000</span></p>
                     </div>
@@ -203,6 +199,7 @@
     </footer>
     <script src="js/utilities.js"></script>
     <script src="js/top-five.js"></script>
+    <script src="js/calculation.js"></script>
 </body>
 
 </html>
