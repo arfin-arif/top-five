@@ -1,26 +1,28 @@
 const cartArray = [];
-// cartArray.length = 5;
 function displayName(element) {
     const playerList = document.getElementById('player-list');
-
+    playerList.innerHTML = '';
     for (let i = 0; i < element.length; i++) {
-        console.log(cartArray[i]);
         const name = cartArray[i];
         const li = document.createElement('li')
-        li.innerText = 'Arfin'
+        li.innerText = name;
         playerList.appendChild(li);
     }
 }
 
+
+
 function addToCart(playerDetails) {
-    // console.log(playerDetails.parentNode.children[0].innerText);
     const playerName = playerDetails.parentNode.children[0].innerText;
-    // console.log(playerName);
-    const playerObject = {
-        playerName: playerName
+
+    if (cartArray.length < 5) {
+        cartArray.push(playerName);
+        playerDetails.disabled = true;
     }
-    // console.log(playerObject)
-    cartArray.push(playerObject)
-    // console.log(cartArray);
+    else {
+        alert(' You added Maximum Number of Player')
+    }
+
     displayName(cartArray);
+
 }
