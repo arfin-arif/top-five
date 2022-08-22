@@ -45,7 +45,7 @@
 
                 <div class=" col-10">
                     <div class="row gy-3 ">
-                        <!-- Card  -->
+                        <!-- Card 1 -->
                         <div class="col-4">
                             <div class="card bg-secondary" style="width: 15rem; ">
                                 <img src="images/player-1.png" class="card-img-top" alt="...">
@@ -55,7 +55,8 @@
                                         <p>36 Goals</p>
                                         <p>25 Assist</p>
                                     </div>
-                                    <button style="border-radius: 0;" class=" col-12 btn btn-dark ">SELECT</button>
+                                    <button onclick="addToCart(this)" style="border-radius: 0;"
+                                        class=" col-12 btn btn-dark ">SELECT</button>
                                 </div>
                             </div>
                         </div>
@@ -64,12 +65,13 @@
                             <div class="card bg-secondary" style="width: 15rem; ">
                                 <img src="images/player-2.png" class="card-img-top" alt="...">
                                 <div class="card-body text-center">
-                                    <h5 class="card-title">Lionel Messi</h5>
+                                    <h5 class="card-title">Naymer Jr</h5>
                                     <div class=" d-flex justify-content-around">
                                         <p>36 Goals</p>
                                         <p>25 Assist</p>
                                     </div>
-                                    <button style="border-radius: 0;" class=" col-12 btn btn-dark ">SELECT</button>
+                                    <button onclick="addToCart(this)" style="border-radius: 0;"
+                                        class=" col-12 btn btn-dark ">SELECT</button>
 
                                 </div>
                             </div>
@@ -79,12 +81,13 @@
                             <div class="card bg-secondary" style="width: 15rem; ">
                                 <img src="images/player-3.png" class="card-img-top" alt="...">
                                 <div class="card-body text-center">
-                                    <h5 class="card-title">Lionel Messi</h5>
+                                    <h5 class="card-title">MbappE</h5>
                                     <div class=" d-flex justify-content-around">
                                         <p>36 Goals</p>
                                         <p>25 Assist</p>
                                     </div>
-                                    <button style="border-radius: 0;" class=" col-12 btn btn-dark ">SELECT</button>
+                                    <button onclick="addToCart(this)" style="border-radius: 0;"
+                                        class=" col-12 btn btn-dark ">SELECT</button>
 
                                 </div>
                             </div>
@@ -94,12 +97,13 @@
                             <div class="card bg-secondary" style="width: 15rem; ">
                                 <img src="images/player-4.png" class="card-img-top" alt="...">
                                 <div class="card-body text-center">
-                                    <h5 class="card-title">Lionel Messi</h5>
+                                    <h5 class="card-title">Sergio Ramos</h5>
                                     <div class=" d-flex justify-content-around">
                                         <p>36 Goals</p>
                                         <p>25 Assist</p>
                                     </div>
-                                    <button style="border-radius: 0;" class=" col-12 btn btn-dark ">SELECT</button>
+                                    <button onclick="addToCart(this)" style="border-radius: 0;"
+                                        class=" col-12 btn btn-dark ">SELECT</button>
 
                                 </div>
                             </div>
@@ -109,12 +113,13 @@
                             <div class="card bg-secondary" style="width: 15rem; ">
                                 <img src="images/player-5.png" class="card-img-top" alt="...">
                                 <div class="card-body text-center">
-                                    <h5 class="card-title">Lionel Messi</h5>
+                                    <h5 class="card-title">Maoro Ekardi</h5>
                                     <div class=" d-flex justify-content-around">
                                         <p>36 Goals</p>
                                         <p>25 Assist</p>
                                     </div>
-                                    <button style="border-radius: 0;" class=" col-12 btn btn-dark ">SELECT</button>
+                                    <button onclick="addToCart(this)" style="border-radius: 0;"
+                                        class=" col-12 btn btn-dark ">SELECT</button>
 
                                 </div>
                             </div>
@@ -124,12 +129,13 @@
                             <div class="card bg-secondary" style="width: 15rem; ">
                                 <img src="images/player-6.png" class="card-img-top" alt="...">
                                 <div class="card-body text-center">
-                                    <h5 class="card-title">Lionel Messi</h5>
+                                    <h5 class="card-title">Varetti</h5>
                                     <div class=" d-flex justify-content-around">
                                         <p>36 Goals</p>
                                         <p>25 Assist</p>
                                     </div>
-                                    <button style="border-radius: 0;" class=" col-12 btn btn-dark ">SELECT</button>
+                                    <button onclick="addToCart(this)" style="border-radius: 0;"
+                                        class=" col-12 btn btn-dark ">SELECT</button>
 
                                 </div>
                             </div>
@@ -141,12 +147,12 @@
                     <div class="col-12">
                         <h3>Slected Five</h3>
                         <div class="">
-                            <ol id="">
+                            <ol id="player-list">
+                                <!-- <li>Lionel Messi</li>
                                 <li>Lionel Messi</li>
                                 <li>Lionel Messi</li>
                                 <li>Lionel Messi</li>
-                                <li>Lionel Messi</li>
-                                <li>Lionel Messi</li>
+                                <li>Lionel Messi</li> -->
                             </ol>
                         </div>
                     </div>
@@ -196,6 +202,7 @@
         <p>All Rights Reserved</p>
     </footer>
     <script src="js/utilities.js"></script>
+    <script src="js/top-five.js"></script>
 </body>
 
 </html>
