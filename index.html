@@ -14,17 +14,36 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body class="bg-dark ">
-    <header>
-        <div class="text-light">
-            <h1>Select You Favorite Top Five</h1>
+<body class=" container ">
+    <header class="" style="background-color: black;">
+
+        <div class=" text-light">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-2">
+                        <img class="img-fluid" src="images/1.png" alt="">
+                    </div>
+                    <div class="col-8 text-center" style="top: 50%;">
+                        <h1>Select You Favorite Top Five</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime neque officiis quia saepe ut
+                            fugit
+                            esse, velit ad sed fugiat?
+                        </p>
+                    </div>
+                    <div class=" col-2 ">
+                        <img class=" img-fluid w-100" src="images/football.png" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
+
+
     </header>
-    <main>
+    <main class="bg-dark pt-4">
         <section class="container">
             <div class="row ">
 
-                <div class=" col-8">
+                <div class=" col-10">
                     <div class="row gy-3 ">
                         <!-- Card  -->
                         <div class="col-4">
@@ -118,27 +137,28 @@
                     </div>
                 </div>
                 <!-- Top Player -->
-                <div class=" col-4 text-light">
+                <div class=" col-2 text-light">
                     <div class="col-12">
                         <h3>Slected Five</h3>
                         <div class="">
-                            <ul id="">
+                            <ol id="">
                                 <li>Lionel Messi</li>
                                 <li>Lionel Messi</li>
                                 <li>Lionel Messi</li>
                                 <li>Lionel Messi</li>
                                 <li>Lionel Messi</li>
-                            </ul>
+                            </ol>
                         </div>
                     </div>
-                    <div class="col-12 text-center">
+                    <div class="col-12 ">
                         <h3>Budget</h3>
                         <div class="row">
                             <div class="col-6">
                                 <p>Per Player</p>
                             </div>
                             <div class="col-6">
-                                <input type="text" name="" id="">
+                                <div class="col-xs-2"></div>
+                                <input class=" form-control" type="text" name="" id="">
                             </div>
                         </div>
                         <button style="border-radius: 0;" class=" col-12 btn btn-info ">Calculate</button>
@@ -149,7 +169,8 @@
                                 <p>Manager</p>
                             </div>
                             <div class="col-6">
-                                <input type="text" name="" id="">
+                                <div class="col-xs-2"></div>
+                                <input class=" form-control" type="text" name="" id="">
                             </div>
                         </div>
                         <div class="row">
@@ -157,7 +178,8 @@
                                 <p>Coach</p>
                             </div>
                             <div class="col-6">
-                                <input type="text" name="" id="">
+                                <div class="col-xs-2"></div>
+                                <input class=" form-control" type="text" name="" id="">
                             </div>
                         </div>
                         <button style="border-radius: 0;" class=" col-12 btn btn-info ">Calculate Total</button>
@@ -169,7 +191,7 @@
         </section>
     </main>
 
-    <footer class="text-light text-center pt-5" style="height: 150px;">
+    <footer class="text-light text-center pt-5 bg-dark" style="height: 150px;">
         <hr class="bg-info">
         <p>All Rights Reserved</p>
     </footer>
