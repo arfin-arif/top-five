@@ -17,6 +17,7 @@ function addToCart(playerDetails) {
 
     if (cartArray.length < 5) {
         cartArray.push(playerName);
+        playerDetails.style.backgroundColor = 'gray';
         playerDetails.disabled = true;
     }
     else {
